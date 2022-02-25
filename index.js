@@ -460,7 +460,10 @@ async function question(index) {
 // console.clear();
 await welcome();
 // await askName();
-for (var i = 0; i < 10; i++) {
+const init = Math.floor(Math.random() * (Data.length - 10 + 1)) + 0;
+
+
+for (var i = init; i < init + 10; i++) {
     await question(i)
 }
 
