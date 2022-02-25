@@ -1,0 +1,28 @@
+{
+  "name": "would-you-rather-anime",
+  "version": "1.0.0",
+  "description": "Would you rather anime version.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon -r esm index.js"
+  },
+  "bin": "./index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "chalk-animation": "^1.6.0",
+    "esm": "^3.2.25",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.0",
+    "inquirer": "^8.2.0",
+    "nanospinner": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.4",
+    "@types/inquirer": "^8.2.0",
+    "nodemon": "^2.0.15"
+  }
+}
